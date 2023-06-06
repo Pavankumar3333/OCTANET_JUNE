@@ -1,0 +1,191 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Attendance Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      a{
+        margin-right: 20px;
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        color: goldenrod;
+      }
+      form{
+        padding: 30px;
+      }
+      nav{
+        margin: 30px;
+        float: right;
+        background-color: aquamarine;
+      }
+      mark{
+        background-color: white;
+        padding: 20px;
+      }
+      body{
+        background-image: url("https://www.247hrm.com/wp-content/uploads/2016/07/tech-background-image-2.jpg");
+      }
+      .abc{
+        margin-left: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        color: whitesmoke;
+      }
+      .submit-btn{
+   width:80%;
+   padding:10px 30px;
+   cursor:pointer;
+   display:block;
+   background-image: linear-gradient(to right, rgb(0, 255, 174) , rgb(213, 243, 91));  
+   border:0;
+   outline:none;
+   border-radius:30px;
+   margin-left: 30px;
+   margin-top: 30px;
+}
+      .abc{
+    width:350px;
+    height:460px;
+    position:relative;
+     margin:3% auto; 
+    background:rgb(255, 255, 255);
+    padding:0px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+      .div2 input:focus ~ label,
+.div2 input:valid ~ label{
+    top:-5px;
+    color: #2691d9;
+}
+.div2 input:focus ~ span::before,
+.div2 input:valid ~ span::before{
+    width: 100%;
+}
+form .div2{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 20px 0;
+    margin-top: 10px;
+}
+.div2 input{
+    padding: 0 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    height: 40px;
+}
+.div2 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.div2 span::before{
+    content: ' ';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+}
+.input{
+    top:150px;
+    position:absolute;
+    width:280px;
+    transition: .5s;
+    /* background-color: aqua; */
+}
+.abs{
+  height: 120px;
+}
+.kk{
+  width:100%;
+   padding:10px;
+   cursor:pointer;
+   /* display:flexbox; */
+   background-image: linear-gradient(to right, rgb(111, 0, 255) , rgb(213, 243, 91));  
+   /* border:0; */
+   outline:none;
+   border-radius:10px;
+   margin-top: 20px;
+}
+.divv{
+  margin-top: 30px;
+  margin-left: 90px;
+}
+    </style>
+</head>
+  <body>
+    <div class="abs">
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="navbar-brand" href=""><mark>Attendance Portal</mark></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="123">
+            <div class="navbar-nav">
+                <a aria-current="page" href="Untitled-1.html">HOME</a>
+                <a href="cse1.html"style="font-color:white;">CSE-01</a>
+                <a href="cse2.html">CSE-02</a>
+                <a href="cse3.html">CSE-03</a>
+                <a href="cse4.html">CSE-04</a>
+                <a href="index.html" class="f90-logout-button">Logout</a>
+              </div>
+          </div>
+        </div>
+      </nav>
+      </div>
+      <div class="abc">
+        <form>
+          <div class="kk">
+            ADD STUDENT
+          </div>
+          <hr>
+          <div class="div2">
+          <input type="text" name="name" required >
+          <span></span>
+          <label>Username</label>
+      </div>
+      <div class="div2">
+          <input type="password" name="pswd" required >
+          <span></span>
+          <label>Password</label>
+      </div> 
+      <div class="div2">
+        <input type="mobileno" name="num"id="id3" required >
+        <span></span>
+        <label>Mobile-no.</label>
+    </div> 
+    <div class="divv">
+      <select>
+        <option>Select Section</option>
+        <option>Cse-01</option>
+        <option>Cse-02</option>
+        <option>Cse-03</option>
+        <option>Cse-04</option>
+      </select>>
+  </div> 
+      <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
+<!-- https:leadschool.in/wp-content/uploads/2022/04/Blog%20Featured%20Images%20(36).png -->

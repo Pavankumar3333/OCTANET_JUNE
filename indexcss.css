@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+}
+.kohli{
+ height:100%;
+ width:100%;
+ background-position:center;
+background-size:cover;
+background-repeat: 0%;
+position:absolute;
+}
+.formb{
+    width:380px;
+    height:450px;
+    position:relative;
+    margin:9% auto; 
+    margin-left: 36%;
+    margin-top: 5%;
+    background:rgb(255, 255, 255);
+    padding:2px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+.login-signup{
+    width:220px;
+    margin:35px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px #4ff5ad1f;
+    border-radius: 30px;
+    /* background-color: #999; */
+}
+.but{
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0; 
+    outline:none;
+    position:relative;
+}
+#btn{
+    top:0;
+    left:0;
+    position:absolute;
+    width:110px;
+    height:100%;
+    background-image: linear-gradient(to right, rgb(0, 255, 174) , rgb(213, 243, 91));  
+    border-radius:30px;
+    transition: .5s;
+}
+/* contact us*/
+.contact{
+    text-align:center;
+}
+.contact img{
+    width:30px;
+    margin:0 12px;
+    box-shadow:0 0 20px 0 #46f7aa1f;
+    cursor: pointer;
+    border-radius:50%;
+}
+.input{
+    top:150px;
+    position:absolute;
+    width:280px;
+    transition: .5s;
+    /* background-color: aqua; */
+}
+.enter{
+    width:100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:10px;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background:transparent;
+}
+.submit-btn{
+   width:80%;
+   padding:10px 30px;
+   cursor:pointer;
+   display:block;
+   background-image: linear-gradient(to right, rgb(0, 255, 174) , rgb(213, 243, 91));  
+   border:0;
+   outline:none;
+   border-radius:30px;
+   margin-left: 30px;
+   margin-top: 50px;
+}
+.check{
+    margin: 30px 10px 30px 0px;
+}
+#student{
+    left:50px;
+}
+#lecturer{
+    left:450px;
+}
+body{
+    /* background-image:url("https://img1.wsimg.com/isteam/ip/cad423fe-3abd-499b-a799-f9abc887948f/biometric_wp.jpg/:/cr=t:0%25,l:3.13%25,w:93.75%25,h:93.75%25/rs=w:400,cg:true,m"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+p{
+   font-size: 50px;
+}
+marquee{
+   font-weight: 700;
+}
+.mar1{
+ font-size:20px;
+ 
+}
+form .div2{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 20px 0;
+    margin-top: 20px;
+}
+.div2 input{
+    padding: 0 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    height: 40px;
+}
+.div2 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.div2 span::before{
+    content: ' ';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+}
+.div2 input:focus ~ label,
+.div2 input:valid ~ label{
+    top:-5px;
+    color: #2691d9;
+}
+.div2 input:focus ~ span::before,
+.div2 input:valid ~ span::before{
+    width: 100%;
+}
